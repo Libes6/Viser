@@ -2,6 +2,7 @@
 import './App.css';
 
 function App() {
+  
   return (
     <div class="wrapper">
     
@@ -13,7 +14,7 @@ function App() {
            <label for="" class="form__label">Email</label>
      </div>
     <div class="form__group">
-         <input type="password" class="form__input"  placeholder=" " minLength="6" maxLength="12" />
+         <input type="password" class="form__input"  placeholder=" " minLength="6" maxLength="13" />
          <label for="" class="form__label">Пароль</label>
     <button class="form__button">Вход</button>
       </div>
