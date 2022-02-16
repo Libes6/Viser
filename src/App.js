@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   let aut =()=>{
-    alert("Ты гей!");
+    window.location.href = 'https://www.youtube.com/watch?v=dVnYucgRXbI';
   }
   return (
     <div class="wrapper">
