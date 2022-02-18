@@ -1,33 +1,11 @@
-
+import { useForm } from "react-hook-form";
 import './App.css';
-
+import Aut from './Сomponent/Aut'
+import Reg from './Сomponent/Reg'
 function App() {
-  let aut =()=>{
-    window.location.href = 'https://www.youtube.com/watch?v=dVnYucgRXbI';
-  }
+  
   return (
-    <div class="wrapper">
-    
-       
-    <div class="form">
-     <h1 class="form__title">Вход</h1> 
-    <div class="form__group">
-           <input type="text" class="form__input" placeholder=" " />
-           <label for="" class="form__label">Email</label>
-     </div>
-    <div class="form__group">
-         <input type="password" class="form__input"  placeholder=" " minLength="6" maxLength="13" />
-         <label for="" class="form__label">Пароль</label>
-    <button class="form__button" onClick={aut}>Вход</button>
-      </div>
-     
-        </div>
-
-      
-       
-
-   </div>
-   
+    <Reg/>
   );
 }
 
