@@ -59,7 +59,7 @@ border-radius: 5px;
  color: white;
 }
 .form__input:focus{
-  border-bottom: 1px solid rgb(34, 31, 31);
+  border-bottom: 1px solid rgb(52, 5, 141);
   transition: all 0.4s;
 
 }
