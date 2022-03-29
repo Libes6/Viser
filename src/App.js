@@ -17,7 +17,7 @@ function App() {
      </div>
     <div class="form__group">
          <input type="password" class="form__input"  placeholder=" " minLength="6" maxLength="13" />
-         <label for="" class="form__label">Саша гей</label>
+         <label for="" class="form__label">Пароль</label>
     <button class="form__button" onClick={aut}>Вход</button>
       </div>
      
