@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@1,700&display=swap');
+
+
+.form__group span{
+    transition: all 0.9s;
+    color:rgb(240, 2, 2);
+    font-family:Comic ;
+    font-size: 14px;
+    letter-spacing: 2px;
+    
+}
+span:before{
+    content: " *";
+    font-size: 18px;
+    margin: 0 5px;
+}
